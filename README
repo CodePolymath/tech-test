@@ -21,7 +21,7 @@ CREATE TABLE `tech_test`.`users` (
     `age` INT NOT NULL
 ) ENGINE = InnoDB;
 
-You may have to adjust the port that MySQL is expected to run under in the app. There are TODO: comments next to the port number in the server.js file.
+You may have to adjust the port that MySQL is expected to run under in the app. There are TODO: comments next to the MySQL port number in the /routes/users.js and /routes/login.js files.
 
 Once you have installed Node and have MySQL running, you should be able to navigate to the solution's root folder on your local machine via a terminal app.
 

@@ -3,7 +3,10 @@
   "description": "Technicolor test app",
   "version": "0.0.1",
   "private": false,
-  "repository": "https://github.com/CodePolymath/tech-test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodePolymath/tech-test.git"
+  },
   "main": "server.js",
   "dependencies": {
     "backbone": "^1.1.2",
