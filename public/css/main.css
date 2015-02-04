@@ -5,3 +5,5 @@ body {padding: 5px}
 .form-inline {margin-bottom: 20px}
 
 .divNav a {margin-right: 10px}
+
+.form-group label, .form-group select {margin-right: 10px}

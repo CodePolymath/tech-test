@@ -31,7 +31,7 @@
         var jade_interp;
         var locals_for_with = locals || {};
         (function(models, undefined) {
-            buf.push('<h1>Current Users</h1><div class="divCountrols"><div class="form-inline"><h4>Enter a filter:</h4><div class="form-group"><label for="selField">Field:</label><select id="selField"><option value="null">Please Select:</option><option value="city">City</option><option value="state">State</option><option value="gender">Gender</option></select><label for="selValue">Value:</label><select id="selValue"><option value="null">Please Select:</option></select><button id="btnFilter" type="button">Filter</button></div></div></div><ul>');
+            buf.push('<h1>Current Users</h1><div class="divCountrols"><div class="form-inline"><h4>Enter a filter:</h4><div class="form-group"><label for="selField">Field:</label><select id="selField"><option value="null">Please Select:</option><option value="city">City</option><option value="state">State</option><option value="gender">Gender</option></select><label for="selValue">Value:</label><select id="selValue"><option value="null">Please Select:</option></select><button id="btnReset" type="button">Reset</button></div></div></div><ul>');
             (function() {
                 var $obj = models;
                 if ("number" == typeof $obj.length) {
