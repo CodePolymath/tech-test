@@ -84,18 +84,18 @@ This URL provides a JSON object with all the app's vital stats.
 
 ### Notes on tech stack choices:
 
-<p>backbone - used as a display layer JavaScript MVC. It was used because it is very basic and doesn't require too much configy stuff to get an app up and running quickly</p>
-<p>body-parser = a plugin which allows express.js to "read" POSTed values</p>
-<p>browserify and browserify-middleware - very powerful plugin, similar to GRUNT. browserify allows all clientside modules to make require()-like dependency calls and reuse libraries included in the Node / Express app</p>
-<p>crypto-js - no one should EVER store passwords in plain text, ever. crypto-js was used to store individually salted hashes of the users' passwords in the db</p>
-<p>express - used as the server app to both response to API calls, and act as a entrypoint for the client app, as well as packing all files and dependencies</p>
-<p>jade - HTML templating</p>
-<p>jquery = because jQuery</p>
-<p>ms - dependency for browserify</p>
-<p>mysql - db solution</p>
-<p>prepare-response - dependency for browserify</p>
-<p>templatizer - converts all .jade html template files into executable JavaScript functions for very fast usage in the client (no compiling HTML templates "on the fly")</p>
-<p>uglify - dependency for browserify to obfuscate code (not implemented)</p>
+<p>**backbone** - used as a display layer JavaScript MVC. It was used because it is very basic and doesn't require too much configy stuff to get an app up and running quickly</p>
+<p>**body-parser** - a plugin which allows express.js to "read" POSTed values</p>
+<p>**browserify** and browserify-middleware - very powerful plugin, similar to GRUNT. browserify allows all clientside modules to make require()-like dependency calls and reuse libraries included in the Node / Express app</p>
+<p>**crypto-js** - no one should EVER store passwords in plain text, ever. crypto-js was used to store individually salted hashes of the users' passwords in the db</p>
+<p>**express** - used as the server app to both response to API calls, and act as a entrypoint for the client app, as well as packing all files and dependencies</p>
+<p>**jade** - HTML templating</p>
+<p>**jquery** - because jQuery</p>
+<p>**ms** - dependency for browserify</p>
+<p>**mysql** - db solution</p>
+<p>**prepare-response** - dependency for browserify</p>
+<p>**templatizer** - converts all .jade html template files into executable JavaScript functions for very fast usage in the client (no compiling HTML templates "on the fly")</p>
+<p>**uglify** - dependency for browserify to obfuscate code (not implemented)</p>
 
 ### Things I skipped:
 
