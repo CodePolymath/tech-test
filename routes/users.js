@@ -49,7 +49,7 @@ exports.getAll = function(req, res) {
 exports.createUser = function(req, res) {
     var user = {};
 
-    if (req.body){ // data passed as POST payload
+    if (req.body && Object.keys(req.body).length > 1){ // data passed as POST payload
         user.userName = req.body.username;
         user.password = req.body.password;
         user.email = req.body.email;

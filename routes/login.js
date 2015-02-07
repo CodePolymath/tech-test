@@ -22,7 +22,7 @@ hash = function(pass, salt) { // should be placed in a modular helper function f
 
 exports.login = function(req, res) {
     var user = {};
-    if (req.body){ // data passed as POST payload
+    if (req.body && Object.keys(req.body).length > 1){ // data passed as POST payload
         user.userName = req.body.username;
         user.password = req.body.password;
     } else { // data passed as querystring (via Postman)
